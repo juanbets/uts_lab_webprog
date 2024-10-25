@@ -123,7 +123,7 @@ if (isset($_GET['search']) || isset($_GET['filter'])) {
             </tbody>
         </table>
 
-        <h2>Daftar matakuliah</h2>
+        <h2>Daftar matakuliah:</h2>
         <table id="taskTable" class="table table-striped table-bordered" style="width:100%">
         <ul>
             <?php foreach ($lists as $list): ?>
